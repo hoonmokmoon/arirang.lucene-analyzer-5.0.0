@@ -55,6 +55,7 @@ public class KoreanAnalyzer extends StopwordAnalyzerBase {
     } catch (IOException ioe) {
       throw new Error("Cannot load stop words", ioe);
     }
+
   }
     
   public KoreanAnalyzer() {
